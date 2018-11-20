@@ -1,10 +1,17 @@
-function Cifrar(elemto) {
-  var palabra = document.getElementsByTagName('imput')[0].value;
+function cifrar() {
+  //alert("hola")
+  var palabra = document.getElementById("text-cifrar").value;
   var palabra_codificada = btoa(palabra);
-  document.getElementsById("resultado").innerHTML = palabra_codificada;
+  document.getElementById("text-cifrar").value = palabra_codificada;
 }
-function Decifrar(elemto) {
-  var palabra = document.getElementsByTagName('imput')[0].value;
+function decifrar() {
+  var palabra = document.getElementById("text-decifrar").value;
   var palabra_codificada = atob(palabra);
-  document.getElementsById("resultado").innerHTML = palabra_codificada;
+  document.getElementById("text-decifrar").value = palabra_codificada;
 }
+
+const ingreso = document.getElementById("btn-encode-cifrar");
+ingreso.addEventListener("click", cifrar);
+
+const ingresode = document.getElementById("btn-encode-decifrar");
+ingresode.addEventListener("click", decifrar);
