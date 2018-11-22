@@ -1,3 +1,4 @@
+// este es un modelo de cifrado mas basico que me sirvio para evaluar mis botones//
 /*function cifrar() {
   //alert("hola")
   var palabra = document.getElementById("text-cifrar").value;
@@ -15,10 +16,11 @@ ingreso.addEventListener("click", cifrar);
 
 const ingresode = document.getElementById("btn-encode-decifrar");
 ingresode.addEventListener("click", decifrar);*/
+// Hallamos la funcion de decifrar utilizando el metodo Ascii para ello aplicamos un for y llamamos cuatro constatntes//
 const btnCipher=document.getElementById('btn-encode-cifrar')
 const message=document.getElementById('text-cifrar');
 const codDes=document.getElementById('input-offset-cifrar');
-let message2=document.getElementById('text-decifrar');
+const message2=document.getElementById('text-decifrar');
 
 
 function cifrar(word,descod)
@@ -33,9 +35,9 @@ let newMessage="";
     // alert(lettercipher);
     newMessage = newMessage+lettercipher;
   }
-  //return newMessage;
+  return newMessage;
   //alert(newMessage);
-  console.log(newMessage);
+  //console.log(newMessage);
 }
 
 function hacerClick() {
@@ -45,8 +47,8 @@ function hacerClick() {
   let numero = parseInt(codDes.value);
   //cifrar(mensaje,numero);
   //message2.value=mensaje;
-  message2 = cifrar(mensaje, numero);
 
+  message2.value = cifrar(mensaje, numero);
 }
 
 btnCipher.addEventListener("click",hacerClick)
