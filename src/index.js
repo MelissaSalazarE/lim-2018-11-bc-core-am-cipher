@@ -20,25 +20,7 @@ ingresode.addEventListener("click", decifrar);*/
 const btnCipher=document.getElementById('btn-encode-cifrar')
 const message=document.getElementById('text-cifrar');
 const codDes=document.getElementById('input-offset-cifrar');
-const message2=document.getElementById('text-decifrar');
-
-
-function cifrar(word,descod)
-{
-
-let newMessage="";
-
-  for (let i = 0; i < word.length; i++) {
-    let numberAscii =((word[i].charCodeAt())-65+descod)%26+65;
-     //alert(numberAscii);
-    let lettercipher =String.fromCharCode(numberAscii);
-    // alert(lettercipher);
-    newMessage = newMessage+lettercipher;
-  }
-  return newMessage;
-  //alert(newMessage);
-  //console.log(newMessage);
-}
+const message2=document.getElementById('text-cifrar');
 
 function hacerClick() {
   //console.log(typeof message.value);
@@ -47,8 +29,30 @@ function hacerClick() {
   let numero = parseInt(codDes.value);
   //cifrar(mensaje,numero);
   //message2.value=mensaje;
-
-  message2.value = cifrar(mensaje, numero);
+let newMessage=cipher.encode(numero,mensaje);
+  //message2.value = cipher.encode(numero,mensaje);
+  message2.value = newMessage;
+  //console.log(newessage1);
 }
 
 btnCipher.addEventListener("click",hacerClick)
+
+//Ahora hallaremos el modelo que decifra//
+
+const btnCipher1=document.getElementById('btn-encode-decifrar')
+const message3=document.getElementById('text-decifrar');
+const codDes1=document.getElementById('input-offset-decifrar');
+const message4=document.getElementById('text-decifrar');
+
+function hacerClick2() {
+  //console.log(typeof message.value);
+  //console.log(typeof parseInt(codDes.value));
+  let mensaje = message3.value;
+  let numero = parseInt(codDes1.value);
+  //cifrar(mensaje,numero);
+  //message2.value=mensaje
+let newMessage=cipher.decode(numero,mensaje);
+  message4.value = newMessage;
+}
+
+btnCipher1.addEventListener("click",hacerClick2)
