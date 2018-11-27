@@ -16,10 +16,6 @@ const message=document.getElementById('text-cifrar');
 const codDes=document.getElementById('input-offset-cifrar');
 const message2=document.getElementById('text-cifrar');
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6896224e72155eac4f33ddbb53f9a3d972e4c6e8
 function hacerClickCifrar() {
   let mensaje = message.value;
   let numero = parseInt(codDes.value);
