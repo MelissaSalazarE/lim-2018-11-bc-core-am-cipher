@@ -1,10 +1,21 @@
+body{
+  background-image: url(img/imagen_1.png);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
 h1{
 text-align: center;
 font-size: 400%;
 font-weight: bolder;
 color: blue;
 display: inline-block;
-
+padding: 10px 20px;
+box-sizing: border-box;
+margin-top: 20px;
+border-radius: 7px;
 }
 
 p { color: black; font-size: 30px; font-family: Times New Roman; }
@@ -13,6 +24,9 @@ p { color: black; font-size: 30px; font-family: Times New Roman; }
   color:red;
   font-size: 150%;
 }
-a:visited {
-    color: green;
+#pantalla-cifrar{
+  background-image: url(img/imagen_2.png);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
 }
