@@ -41,17 +41,17 @@ return message4.value = newMessage;
 
 btnCipher1.addEventListener("click",hacerClickDecifrar);
 //**************************************************
-irCifrar = () =>{
+const irCifrar = () =>{
   document.getElementById('pantalla-inicio').style.display='none';
   document.getElementById('pantalla-cifrar').style.display='block';
   document.getElementById('pantalla-descifrar').style.display='none';
 }
-irDescifrar = () =>{
+const irDescifrar = () =>{
   document.getElementById('pantalla-inicio').style.display='none';
   document.getElementById('pantalla-cifrar').style.display='none';
   document.getElementById('pantalla-descifrar').style.display='block';
 }
-irInicio = () =>{
+let irInicio = () =>{
   document.getElementById('pantalla-inicio').style.display='block';
   document.getElementById('pantalla-cifrar').style.display='none';
   document.getElementById('pantalla-descifrar').style.display='none';
