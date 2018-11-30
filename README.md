@@ -2,12 +2,13 @@
  Está página web está diseñada especialmente para resguardar la cartera de clientes de diversas compañias asi mismo guardar documentos importantes y ayudarles a vender,escencialmente lo que hacemos es ciframos y desciframos de tal manera que encaje como el cliente lo solicite porque vendemos un producto Hecho a la Medida del Cliente.
  Instrucciones de como debe usarse :
 
+![sin titulo](http://subefotos.com/ver/?5a338c7c6f51bc57c8665727de8fb159o.png)
+
  + Para Cifrar :
 
  Primero ingresamos un número en la cajita donde dice ingrese el codigo de desplazamiento, dicho número es único para decifrarlo por lo que no debes olvidarlo jamás , luego debes ingresar el mensaje que quieres cifrar
  clickar el botón de cifrar y listo tienes tu mensaje cifrado.
 
- ![sin titulo](https://melilove.github.io/lim-2018-11-bc-core-am-cipher/)
 
  + Para decifrar:
 
