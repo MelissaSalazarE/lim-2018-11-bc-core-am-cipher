@@ -1,3 +1,26 @@
+# Secret Clients
+ Está página web está diseñada especialmente para resguardar la cartera de clientes de diversas compañias asi mismo guardar documentos importantes y ayudarles a vender,escencialmente lo que hacemos es ciframos y desciframos de tal manera que encaje como el cliente lo solicite porque vendemos un producto Hecho a la Medida del Cliente.
+ Instrucciones de como debe usarse :
+ Para Cifrar :
+ Primero ingresamos un número , dicho número es único para decifrarlo por lo que no debes olvidarlo jamás , luego debes ingresar el mensaje que quieres cifrar
+ clickar el botón de cifrar y listo tienes tu mensaje cifrado.
+ Para decifrar:
+ Ingresas la clave secreta ,copias el texto que te enviaron en la caja de texto que dice" ingrese el texto que descifraremos"
+ clickas en decifrar , en la caja de texto obtendrás el texto decifrado.
+
+ + ¿Quiénes son los principales usuarios del producto?
+
+ Los principales usuarios son las empresas que necesiten resguardar información muy valiosa.
+
+ + ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+
+  El objetivo principal del usuario es la confidencialidad, seguridad, ellos buscan que su informacion guardada en nuestra plataforma solo puedan leerlo ellos y a asimismo a quien ellos concideren pertinente que sepan sobre su proyecto o informacion resguardada.
+
+  + ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+
+  La idea de la página web nació con el propósito de solucionar una gran preocupación de parte de nuestros clientes que temen que su información sea bloqueada en el proceso de envio por los famosos HACKERS, personas mal intencionadas que cometen delito cibernetico, que estan muy de moda en nuestra era digitalizada. Es por eso que nace la idea de Secret Clients.
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -219,7 +242,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).

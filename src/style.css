@@ -30,6 +30,7 @@
   background-image: url(img/imagen_3.png);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+
 }
 
 /*Ahora el caso del titulo*/
@@ -40,14 +41,9 @@ h1{
   margin: 0;
   font-size: 400%;
   margin-bottom: 20px;
+  padding: 20px 100px;
 
-  /*font-size: 400%;
-  font-weight: bolder;
-  padding: 10px 20px;
-  display: inline-block;
-  box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 7px;*/
+
 }
 
 p { color: black; font-size: 30px; font-family: Times New Roman; }
@@ -57,13 +53,6 @@ p { color: black; font-size: 30px; font-family: Times New Roman; }
   font-size: 150%;
 }
 
-h1{
-  color: afff;
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
 /*dandole forma a los input y textarea*/
 #input-offset-cifrar{
   width: 10%;
