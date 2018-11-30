@@ -1,11 +1,15 @@
 # Secret Clients
  Está página web está diseñada especialmente para resguardar la cartera de clientes de diversas compañias asi mismo guardar documentos importantes y ayudarles a vender,escencialmente lo que hacemos es ciframos y desciframos de tal manera que encaje como el cliente lo solicite porque vendemos un producto Hecho a la Medida del Cliente.
  Instrucciones de como debe usarse :
- Para Cifrar :
- Primero ingresamos un número , dicho número es único para decifrarlo por lo que no debes olvidarlo jamás , luego debes ingresar el mensaje que quieres cifrar
+
+ + Para Cifrar :
+
+ Primero ingresamos un número en la cajita donde dice ingrese el codigo de desplazamiento, dicho número es único para decifrarlo por lo que no debes olvidarlo jamás , luego debes ingresar el mensaje que quieres cifrar
  clickar el botón de cifrar y listo tienes tu mensaje cifrado.
- Para decifrar:
- Ingresas la clave secreta ,copias el texto que te enviaron en la caja de texto que dice" ingrese el texto que descifraremos"
+
+ + Para decifrar:
+
+ Ingresas la clave secreta que es el mismo que utilizaste en la cajita donde dice ingrese el codigo de desplazamiento ,copias el texto que te enviaron en la caja de texto que dice" ingrese el texto que descifraremos"
  clickas en decifrar , en la caja de texto obtendrás el texto decifrado.
 
  + ¿Quiénes son los principales usuarios del producto?
@@ -21,7 +25,7 @@
   La idea de la página web nació con el propósito de solucionar una gran preocupación de parte de nuestros clientes que temen que su información sea bloqueada en el proceso de envio por los famosos HACKERS, personas mal intencionadas que cometen delito cibernetico, que estan muy de moda en nuestra era digitalizada. Es por eso que nace la idea de Secret Clients.
 
 
-# Cifrado César
+**# Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -70,7 +74,7 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 - Entender las **necesidades del usuario** y cómo proponer una solución.
 - Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
 
-## Parte Obligatoria
+**## Parte Obligatoria
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
@@ -116,7 +120,7 @@ La interfaz debe permitir al usuario:
 
 ## Parte opcional o “Hacker edition”
 
-Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre **los objetivos de aprendizaje del proyecto.
 
 La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El boilerplate incluye algunos tests (comentados en principio) que puedes usar como punto de partida para implementar el soporte para estos casos.
 
@@ -202,22 +206,22 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 | Habilidad |
 |-----------|
 | **CS** |
-| Lógica |
+**| Lógica |
 | Arquitectura |
 | **SCM** |
-| Git |
+**| Git |
 | GitHub |
 | **JavaScript** |
-| Estilo |
+**| Estilo |
 | Nomenclatura/semántica |
 | Funciones/modularidad |
 | Tests |
 | **HTML** |
-| Validación |
+**| Validación |
 | Estilo |
 | Semántica |
 | **CSS** |
-| DRY |
+**| DRY |
 | Responsive |
 
 ### Habilidades Técnicas UX
@@ -228,7 +232,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 
 ***
 
-## Pistas sobre cómo comenzar a trabajar en el proyecto
+**## Pistas sobre cómo comenzar a trabajar en el proyecto
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
@@ -253,7 +257,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    pruebas unitarias (unit tests) con el comando `npm test`.
 7. A codear se ha dicho! :rocket:
 
-## Recursos y temas relacionados
+**## Recursos y temas relacionados
 
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
@@ -267,7 +271,7 @@ Diseño de experiencia de usuario (User Experience Design):
 - Prototipado (sketching)
 - Testeo e Iteración
 
-Desarrollo Front-end:
+**Desarrollo Front-end:
 
 * Valores
 * Tipos
@@ -279,14 +283,14 @@ Desarrollo Front-end:
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 * [Documentación de NPM](https://docs.npmjs.com/)
 
-Herramientas:
+**Herramientas:
 - GitHub y GitHub Pages.
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
 
-## Checklist
+**## Checklist
 Esta sección está  para ayudarte a llevar un control de lo que vas completando.
 
-### Parte Obligatoria
+**### Parte Obligatoria
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
@@ -307,7 +311,7 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Interfaz permite escribir un texto para ser descifrado.
 * [ ] Interfaz muestra el resultado del descifrado correctamente.
 
-### Parte Opcional: "Hacker edition"
+**### Parte Opcional: "Hacker edition"
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
