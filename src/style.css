@@ -59,7 +59,8 @@ p { color: black; font-size: 30px; font-family: Times New Roman; }
   margin-bottom: 50px;
   box-sizing: border-box;
   font-size: 17px;
-  border: 2px solid #0016b0;
+  border: 10px solid #0016b0;
+  border-radius: 20px;
 }
 
 #input-offset-decifrar{
@@ -67,7 +68,8 @@ p { color: black; font-size: 30px; font-family: Times New Roman; }
   margin-bottom: 50px;
   box-sizing: border-box;
   font-size: 17px;
-  border: 2px solid #0016b0;
+  border: 10px solid #0016b0;
+  border-radius: 20px;
 }
 
 input,textarea{
@@ -76,6 +78,7 @@ input,textarea{
   box-sizing: border-box;
   font-size: 17px;
   border: 2px solid #0016b0;
+  border-radius: 20px;
 
 }
 textarea{
@@ -113,7 +116,7 @@ textarea{
     padding-right: 30px;
     font-weight: 100;
     font-size: 10px;
-    color: black;
+    color: white;
     background-color: blue;
     border-radius: 20px;
 }
@@ -126,7 +129,7 @@ textarea{
     padding-right: 30px;
     font-weight: 100;
     font-size: 10px;
-    color: black;
+    color: white;
     background-color: red;
     border-radius: 20px;
 }
@@ -139,8 +142,8 @@ textarea{
     padding-right: 5px;
     font-weight: 100;
     font-size: 10px;
-    color: black;
-    background-color: #9b0e0e;
+    color: white;
+    background-color: red;
     border-radius: 20px;
 }
 #btn-inicio{
@@ -152,7 +155,7 @@ textarea{
     padding-right: 5px;
     font-weight: 100;
     font-size: 10px;
-    color: black;
+    color: white;
     background-color: blue;
     border-radius: 20px;
 }
@@ -166,8 +169,8 @@ textarea{
     padding-right: 5px;
     font-weight: 100;
     font-size: 10px;
-    color: black;
-    background-color: #9b0e0e;
+    color: white;
+    background-color: red;
     border-radius: 20px;
 }
 #btn-inicio1{
@@ -179,7 +182,7 @@ textarea{
     padding-right: 5px;
     font-weight: 100;
     font-size: 10px;
-    color: black;
+    color: white;
     background-color: blue;
     border-radius: 20px;
 }

@@ -2,7 +2,7 @@
  Está página web está diseñada especialmente para resguardar la cartera de clientes de diversas compañias asi mismo guardar documentos importantes y ayudarles a vender,escencialmente lo que hacemos es ciframos y desciframos de tal manera que encaje como el cliente lo solicite porque vendemos un producto Hecho a la Medida del Cliente.
  Instrucciones de como debe usarse :
 
-![sin titulo](http://subefotos.com/ver/?5a338c7c6f51bc57c8665727de8fb159o.png)
+![Sin titulo](http://thumbs.subefotos.com/5a338c7c6f51bc57c8665727de8fb159o.jpg)
 
  + Para Cifrar :
 
